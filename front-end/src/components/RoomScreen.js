@@ -6,14 +6,14 @@ class RoomScreen extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            players: ['test', 'test2']
+            players: ['Player B', 'Player C']
         }
     }
     render() {
         return (
             <View style={styles.container}>
                 <View style={styles.displaySection}>
-                    <Text style={styles.nameText}>You are: Player 1</Text>
+                    <Text style={styles.nameText}>You are: Player A</Text>
                 </View>
                 <View style={styles.inputSection}>
                         {this.state.players.map((name) => (

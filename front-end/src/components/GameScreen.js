@@ -29,13 +29,12 @@ class GameScreen extends React.Component {
             <View style={styles.displaySection}>
                 <Button
                     title="Quit"
-                    large
                     raised
                     buttonStyle={styles.button}
                     // icon={{name: 'envira', type: 'font-awesome'}}
                     onPress={() => this.props.navigation.navigate('Home')}
                 />
-                <Text>{name}</Text>
+                <Text style={styles.otherPlayer}>{name}</Text>
             </View>
             <View style={styles.inputSection}>
                 {this.renderBoard()}
@@ -71,7 +70,7 @@ const styles = StyleSheet.create({
     },
     displaySection: {
         flex: 1,
-        paddingTop: 30,
+        paddingTop: 40,
         backgroundColor: '#9E6D29',
         justifyContent: 'center'
     },
@@ -87,6 +86,12 @@ const styles = StyleSheet.create({
     },
     button: {
         backgroundColor: "#28160B",
-        padding: 10
+        padding: 10,
+        width: 100,
     },
+    otherPlayer: {
+        fontSize: 22,
+        fontWeight: 'bold',
+        color: 'white'
+    }
   });

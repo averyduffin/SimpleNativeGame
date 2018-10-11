@@ -1,0 +1,40 @@
+{
+  "name": "socket-server",
+  "version": "1.0.0",
+  "description": "This is just a node socket server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js --exec babel-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/averyduffin/native-socket-timer.git"
+  },
+  "author": "Avery Duffin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/averyduffin/native-socket-timer/issues"
+  },
+  "homepage": "https://github.com/averyduffin/native-socket-timer#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "eslint": "^4.19.1",
+    "eslint-config-storm": "latest",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-plugin-vue": "^4.3.0",
+    "nodemon": "^1.12.5"
+  },
+  "dependencies": {
+    "async": "^1.4.2",
+    "body-parser": "^1.18.2",
+    "colors": "^1.2.1",
+    "lodash": "^4.17.4",
+    "moment": "^2.20.1",
+    "socket.io": "^2.0.4",
+    "socket.io-client": "^2.0.4"
+  }
+}

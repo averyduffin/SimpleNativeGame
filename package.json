@@ -1,0 +1,21 @@
+{
+  "name": "native-socket-timer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "front": "npm start --prefix front-end/",
+    "back": "npm start --prefix back-end/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/averyduffin/native-socket-timer.git"
+  },
+  "author": "Avery Duffin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/averyduffin/native-socket-timer/issues"
+  },
+  "homepage": "https://github.com/averyduffin/native-socket-timer#readme"
+}
